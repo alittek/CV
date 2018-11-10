@@ -1,0 +1,29 @@
+img
+{
+  margin: 10px 0;
+  width: 100%;
+}
+
+#heading
+{
+  background-color: lightgrey;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+#column
+{
+  background-color: lightgrey;
+}
+
+#main
+{
+  width: 100%;
+  padding: 20px 10px;
+}
+
+#nav a.selected:visited
+{
+  background-color: blue;
+}
