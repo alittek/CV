@@ -1,37 +1,51 @@
-img
+
+
+
+/* header */
+#navbar
 {
-  margin: 10px 0;
-  width: 100%;
+  padding: 30px 20px;
 }
 
 #heading
 {
   background-color: lightgrey;
   width: 100%;
-  padding-top: 70px;
+  padding-top: 80px;
   padding-bottom: 10px;
+  text-align: right;
+}
+#portrait
+{
+  float: right;
+  width: 40%;
 }
 
-#columnfooter
+/* main section */
+img
 {
-  background-color: lightgrey;
   width: 100%;
-  padding: 20px 20px;
+  margin: 10px 0;
 }
 
 #main
 {
   width: 100%;
   padding: 20px 10px;
+  padding-bottom: 50px;
 }
 
-#nav a.selected:visited
-{
-  background-color: blue;
-}
 
-#portrait
+
+
+/* footer */
+#columnfooter
 {
-  float: right;
-  width: 70%;
+  background-color: lightgrey;
+  width: 100%;
+  padding: 20px 20px;
+}
+ul li
+{
+  padding: 5px 0px;
 }
