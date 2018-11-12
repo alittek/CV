@@ -1,42 +1,54 @@
 <div id="nav">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Alina Littek</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="aboutMe.html">About me </a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Projects
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="projects.html">Projects overview </a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="wwwProjects.html">WWW Authoring projects </a>
-              <a class="dropdown-item" href="javaProjects.html">Java projects </a>
-
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+    <a class="navbar-brand" href="#">Alina Littek</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item {% if page.title == "Home" %} active {% endif %}">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item {% if page.title == "About Me" %} active {% endif %}">
+          <a class="nav-link" href="aboutMe.html">About me </a>
+        </li>
+        <li class="nav-item dropdown {% if page.title == "Projects" %} active {% endif %}">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item {% if page.title == "Projects" %} active {% endif %} " href=" projects.html">Projects overview </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item {% if page.title == "WWW Authoring Projects" %} active {% endif %}" href="wwwProjects.html">WWW Authoring projects </a>
+            <a class="dropdown-item {% if page.title == "Java Projects" %} active {% endif %}" href="javaProjects.html">Java projects </a>
+          </div>
+        </li>
+        <li class="nav-item {% if page.title == "Contact" %} active {% endif %}">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </div>
 
-    <section id="heading">
-    <div class="container">
+<section id="heading">
+  <div class="container">
 
-      <h1>Alina Littek</h1>
-      <h2>University of Dundee</h2>
+    <div class="row">
+      <div class="col-sm" style="padding-top: 170px">
+
+        <h1>Alina Littek</h1>
+        <h2>University of Dundee</h2>
+      </div>
+      <div class="col-sm">
+        <div id="portrait">
+          <img class="rounded-circle" src=https://picsum.photos/800/800 alt="random pic">
+        </div>
+      </div>
     </div>
-  </section>
+
+
+
+
+  </div>
+</section>
