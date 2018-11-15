@@ -1,3 +1,6 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
 
 /* header */
 
@@ -9,12 +12,24 @@
   padding-bottom: 10px;
 }
 
-
 /* main section */
 img
 {
   width: 100%;
   margin: 10px 0;
+}
+
+p
+{
+  line-height: 2;
+  text-align: justify;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1
+{
+  letter-spacing: 10px;
+  font-family: serif;
 }
 
 #main
@@ -24,7 +39,7 @@ img
   padding-bottom: 50px;
 }
 
-
+/* projects */
 
 
 /* footer */
