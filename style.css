@@ -1,7 +1,6 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Source Sans Pro', sans-serif; */
 
-
 /* header */
 #heading
 {
@@ -11,6 +10,7 @@ font-family: 'Source Sans Pro', sans-serif; */
   padding-bottom: 10px;
   margin-bottom: 30px;
   font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1px;
 }
 body header h1, body header h2
 {
@@ -19,6 +19,8 @@ body header h1, body header h2
   text-align: right;
   letter-spacing: 5px;
 }
+
+
 
 /* main section */
 body img
@@ -57,11 +59,15 @@ body h3
   padding: 10px 30px;
 }
 
+
+
 /* home */
 h4
 {
   font-family: 'Montserrat', sans-serif;
 }
+
+
 
 
 /* projects */
@@ -85,7 +91,6 @@ h4
 
 
 
-
 /* about me */
 .rounded-circle
 {
@@ -103,12 +108,20 @@ h4
   margin: 30px;
 }
 
+.card-header
+{
+  background-color: black;
+}
+
+
+
 /* footer */
 #columnfooter
 {
   background-color: lightgrey;
-  width: 100%;
   padding: 20px 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1px;
 }
 ul li
 {
