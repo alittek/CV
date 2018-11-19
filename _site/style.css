@@ -22,7 +22,7 @@ body header h1, body header h2
 
 
 
-/* main section */
+/* body section */
 body img
 {
   width: 100%;
@@ -59,18 +59,42 @@ body h3
   padding: 10px 30px;
 }
 
-
-
-/* home */
-h4
+.paddingBottom
 {
-  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 100px;
+}
+
+.row
+{
+  style="padding: 30px 0px;"
 }
 
 
 
 
+/* home */
+body h4
+{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-caption
+{
+  padding-bottom: 40px;
+}
+
+
 /* projects */
+.card
+{
+  width: 100%;
+}
+
+.projectPadding
+{
+  padding: 20px 0px;
+}
+
 .project1
 {
   width: 100%;
