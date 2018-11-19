@@ -6,7 +6,7 @@ font-family: 'Source Sans Pro', sans-serif; */
 {
   background-color: lightgrey;
   width: 100%;
-  padding-top: 80px;
+  padding-top: 120px;
   padding-bottom: 10px;
   margin-bottom: 30px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -21,7 +21,6 @@ body header h1, body header h2
 }
 
 
-
 /* body section */
 body img
 {
@@ -29,9 +28,10 @@ body img
   margin: 10px 0;
 }
 
-body p
+body p, body li
 {
   line-height: 2;
+  letter-spacing: 1px;
   text-align: justify;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -70,8 +70,6 @@ body h3
 }
 
 
-
-
 /* home */
 body h4
 {
@@ -85,11 +83,6 @@ body h4
 
 
 /* projects */
-.card
-{
-  width: 100%;
-}
-
 .projectPadding
 {
   padding: 20px 0px;
@@ -114,7 +107,6 @@ body h4
 }
 
 
-
 /* about me */
 .rounded-circle
 {
@@ -137,7 +129,18 @@ body h4
   background-color: black;
 }
 
+/* contact */
+.contactCard
+{
+  max-width: 22rem;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
 
+.icon
+{
+  padding-right: 30px;
+}
 
 /* footer */
 #columnfooter
