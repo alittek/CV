@@ -113,8 +113,8 @@ body h4
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60px;
-  max-width: 400px;"
+  margin-top: 20px;
+  max-width: 450px;
 }
 
 .skills
@@ -135,11 +135,6 @@ body h4
   max-width: 22rem;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
-}
-
-.centeredCards
-{
-  align-items: center;
 }
 
 .icon
