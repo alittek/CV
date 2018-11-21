@@ -1,9 +1,7 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Source Sans Pro', sans-serif; */
-
 /* header */
-#heading
-{
+#heading {
   background-color: lightgrey;
   width: 100%;
   padding-top: 120px;
@@ -13,32 +11,27 @@ font-family: 'Source Sans Pro', sans-serif; */
   letter-spacing: 1px;
 }
 
-body header h1, body header h2
-{
+body header h1, body header h2 {
   padding: 0px 0px;
   color: #e67300;
   text-align: right;
   letter-spacing: 5px;
 }
 
-
 /* body section, general styling for all pages within the body*/
-body img
-{
+body img {
   width: 100%;
   margin: 10px 0;
 }
 
-body p, body li
-{
+body p, body li {
   line-height: 2;
   letter-spacing: 1px;
   text-align: justify;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-body h1
-{
+body h1 {
   letter-spacing: 4px;
   font-family: 'Montserrat', sans-serif;
   color: #008000;
@@ -46,73 +39,60 @@ body h1
   font-weight: 600;
 }
 
-body h2
-{
+body h2 {
   letter-spacing: 3px;
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 
-body h3
-{
+body h3 {
   font-family: 'Montserrat', sans-serif;
   padding: 10px 30px;
 }
 
-.marginBottom
-{
+.marginBottom {
   margin-bottom: 100px;
 }
 
-.paragraph
-{
+.paragraph {
   padding: 20px 0px;
 }
 
-.background
-{
+.background {
   background-color: #e67300;
   padding: 30px 0px;
 }
 
-.whiteContainer
-{
+.whiteContainer {
   padding: 40px 0px;
 }
 
-
 /* home */
-body h4
-{
+body h4 {
   font-family: 'Montserrat', sans-serif;
 }
 
-.carousel-caption
-{
+.carousel-caption {
   padding-bottom: 40px;
 }
 
-.quote
-{
+.quote {
   padding: 80px 0px;
 }
 
-.quoteFont
-{
+.quoteFont {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
   font-weight: bold;
 }
 
 /* projects */
-.projectPadding
-{
+.projectPadding {
   padding: 20px 0px;
 }
 
-.project1
-{
+.project1 {
   width: 100%;
   padding: 30px 50px;
   color: white;
@@ -120,23 +100,19 @@ body h4
   margin-bottom: 30px;
 }
 
-.project2
-{
+.project2 {
   width: 100%;
   padding: 30px 50px;
   background-color: #e67300;
   margin-bottom: 30px;
 }
 
-blockquote p
-{
+blockquote p {
   text-align: right;
 }
 
-
 /* about me */
-.rounded-circle
-{
+.rounded-circle {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -144,94 +120,86 @@ blockquote p
   max-width: 450px;
 }
 
-.skills
-{
+.skills {
   background-color: grey;
   padding: 30px 30px;
   margin: 30px;
 }
 
-.card-header
-{
+.card-header {
   background-color: black;
 }
 
-
 /* progressbars skills*/
-.html
-{
+.html {
   width: 75%;
 }
-.css
-{
+
+.css {
   width: 40%;
 }
-.java
-{
+
+.java {
   width: 50%;
 }
-.javascript
-{
+
+.javascript {
   width: 25%;
 }
 
 /* progressbars languages*/
-.german
-{
+.german {
   width: 100%;
 }
-.english
-{
+
+.english {
   width: 80%;
 }
-.russian
-{
+
+.russian {
   width: 55%;
 }
-.french
-{
+
+.french {
   width: 40%;
 }
-.spanish
-{
+
+.spanish {
   width: 20%;
 }
 
-
 /* contact */
-.contactCard
-{
+.contactCard {
   max-width: 15rem;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
 }
 
-.icon
-{
+.icon {
   padding-right: 30px;
 }
 
-p a:link
-{
+p a:link {
   color: black;
 }
 
-p a:visited
-{
+p a:visited {
   color: black;
 }
 
+label
+{
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* footer */
-#columnfooter
-{
+#columnfooter {
   background-color: lightgrey;
   padding: 20px 20px;
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 1px;
 }
 
-.copyright
-{
+.copyright {
   padding: 30px 0px;
 }
