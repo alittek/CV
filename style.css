@@ -154,6 +154,46 @@ blockquote p
   padding: 20px 0px;
 }
 
+/* progressbars skills*/
+.html
+{
+  width: 75%;
+}
+.css
+{
+  width: 40%;
+}
+.java
+{
+  width: 50%;
+}
+.javascript
+{
+  width: 25%;
+}
+
+/* progressbars languages*/
+.german
+{
+  width: 100%;
+}
+.english
+{
+  width: 80%;
+}
+.russian
+{
+  width: 55%;
+}
+.french
+{
+  width: 40%;
+}
+.spanish
+{
+  width: 20%;
+}
+
 
 /* contact */
 .contactCard
