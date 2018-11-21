@@ -82,6 +82,10 @@ body h4
   padding-bottom: 40px;
 }
 
+.quote
+{
+  padding: 40px 0px;
+}
 
 /* projects */
 .projectPadding
@@ -105,6 +109,11 @@ body h4
   color: white;
   background-color: #e67300;
   margin-bottom: 30px;
+}
+
+blockquote p
+{
+  text-align: right;
 }
 
 
@@ -144,12 +153,12 @@ body h4
   padding-right: 30px;
 }
 
-p a:hover
+p a:link
 {
-  color: #ffd11a;
+  color: white;
 }
 
-a:visited
+p a:visited
 {
   color: white;
 }
