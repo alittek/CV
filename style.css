@@ -70,6 +70,17 @@ body h3
   padding: 20px 0px;
 }
 
+.background
+{
+  background-color: #e67300;
+  padding: 30px 0px;
+}
+
+.whiteContainer
+{
+  padding: 40px 0px;
+}
+
 
 /* home */
 body h4
@@ -113,7 +124,6 @@ body h4
 {
   width: 100%;
   padding: 30px 50px;
-  color: white;
   background-color: #e67300;
   margin-bottom: 30px;
 }
@@ -146,16 +156,6 @@ blockquote p
   background-color: black;
 }
 
-.background
-{
-  background-color: #e67300;
-  padding: 20px 0px;
-}
-
-.whiteContainer
-{
-  padding: 20px 0px;
-}
 
 /* progressbars skills*/
 .html
@@ -201,7 +201,7 @@ blockquote p
 /* contact */
 .contactCard
 {
-  max-width: 22rem;
+  max-width: 15rem;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
 }
@@ -213,12 +213,12 @@ blockquote p
 
 p a:link
 {
-  color: white;
+  color: black;
 }
 
 p a:visited
 {
-  color: white;
+  color: black;
 }
 
 
