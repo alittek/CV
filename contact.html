@@ -4,53 +4,80 @@ title: "Contact"
 fulltitle: "My Awesome Home Page"
 ---
 
-  <div class="container paddingBottom">
+<div class="container whiteContainer">
+  <h1>Contact Me</h1>
+  <img src=pics/contact.jpg alt="random pic">
 
-    <h1>Contact Me</h1>
+  <!-- general text -->
+  <div class="paragraph">
+    <p>
+      Lorem ipsum dolor sit amet, dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
+    </p>
+  </div>
+</div>
 
-    <img src=pics/contact.jpg alt="random pic">
-
-      <div class="paragraph">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+<!-- bootstrap form to send a message -->
+<div class="container-fluid background">
+  <div class="container">
+    <h2>Send me a Message</h2>
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Your E-mail Address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Your Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </form>
+  </div>
+</div>
 
-      <!-- contact cards with adress, number and email -->
-        <div class="row">
-          <div class="col-sm">
-            <div class="card mx-auto contactCard text-white bg-primary mb-3">
-              <div class="card-header">Write me</div>
-              <div class="card-body">
-                <p class="card-text"><i class="fas icon fa-envelope-square fa-3x"></i> arglittek@dundee.ac.uk</p>
-              </div>
-            </div>
-            <div class="card mx-auto contactCard text-white bg-success mb-3">
-              <div class="card-header">Call me</div>
-              <div class="card-body">
-                <p class="card-text">
-                  <i class="fas icon fa-phone-square fa-3x"></i> 0000000000 </p>
-              </div>
-            </div>
-          </div>
+<!-- contact cards with adress, number and email -->
+<div class="container whiteContainer">
+  <div class="row">
+    <div class="col-sm">
 
-          <div class="col-sm">
-            <div class="card mx-auto contactCard text-white bg-danger mb-3">
-              <div class="card-header">Facebook</div>
-              <div class="card-body">
-                <p class="card-text"><i class="fab icon fa-facebook-square fa-3x"></i> Alina Littek</p>
-              </div>
-            </div>
-            <div class="card mx-auto contactCard text-white bg-info mb-3">
-              <div class="card-header">Meet me</div>
-              <div class="card-body">
-                <p class="card-text"><i class="fas icon fa-home fa-3x"></i> U of Dundee </p>
-              </div>
-            </div>
-          </div>
+      <!-- phone contact card -->
+      <div class="card mx-auto contactCard border-dark text-center mb-3">
+        <div class="card-header">Call me <i class="fas icon fa-phone-square fa-2x"></i>
         </div>
-
-        <div class="paragraph">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut bore et dolore magna aliqua. Ut enim
-          adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpaliquip ex ea.</p>
+        <div class="card-body text-dark">
+          <p class="card-text text-center"><a href=" " title="phone"> +49 175 5283518 </a></p>
         </div>
       </div>
+    </div>
+    <div class="col-sm">
+
+      <!-- address contact card -->
+      <div class="card mx-auto contactCard border-dark  text-center mb-3">
+        <div class="card-header">Meet me <i class="fas icon fa-home fa-2x"></i></div>
+        <div class="card-body text-dark">
+          <p class="card-text text-center"><a href="https://www.google.com/maps" title="Maps"> University of Dundee </a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+
+      <!-- e-mail contact card -->
+      <div class="card mx-auto contactCard border-dark text-center mb-3">
+        <div class="card-header">Write me <i class="fas icon fa-envelope-square fa-2x"></i></div>
+        <div class="card-body text-dark">
+          <p class="card-text text-center"><a href=" " title="Email"> arglittek@dundee.ac.uk </a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container marginBottom">
+  <!-- general text -->
+  <div class="paragraph">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut bore et dolore magna aliqua. Ut enim
+      adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpaliquip ex ea.</p>
+  </div>
+</div>
