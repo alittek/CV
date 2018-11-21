@@ -144,6 +144,16 @@ body h4
   padding-right: 30px;
 }
 
+p a:hover
+{
+  color: #ffd11a;
+}
+
+a:visited
+{
+  color: white;
+}
+
 
 /* footer */
 #columnfooter
